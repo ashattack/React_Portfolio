@@ -7,56 +7,64 @@ import Col from "../components/Col";
 function Portfolio() {
   return (
     <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
-      </Hero>
-      <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-12">
-            <h1>Welcome To Pupster!</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-              consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
-              parturient montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus
-              sollicitudin at et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
-              gravida. Duis eget vestibulum quam, ut porttitor sem. Donec sagittis mi sollicitudin
-              turpis semper, et interdum risus lobortis. Vestibulum suscipit nunc non egestas
-              tristique. Proin hendrerit efficitur malesuada. Mauris lorem urna, sodales accumsan
-              quam non, tristique tempor erat. Nullam non sem facilisis, tempus tortor sit amet,
-              volutpat nisl. Ut et turpis non nunc maximus mollis a vitae tortor. Pellentesque
-              mattis risus ac quam laoreet cursus. Praesent suscipit orci neque, vestibulum
-              tincidunt augue tincidunt non. Duis consequat mattis tortor vitae mattis.
-            </p>
-            <p>
-              Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed
-              malesuada molestie velit ac viverra. Quisque a ullamcorper purus. Curabitur luctus mi
-              ac mi hendrerit semper. Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
-              nibh porta accumsan. Nunc volutpat tempus porttitor. Nunc congue dictum egestas.
-              Aliquam blandit mi eu urna scelerisque, vitae volutpat ligula ultricies. Maecenas vel
-              porta augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
-            </p>
-            <p>
-              Etiam ut massa efficitur, gravida sapien non, condimentum sapien. Suspendisse massa
-              tortor, facilisis in neque sit amet, scelerisque elementum tortor. Nullam eget nibh
-              sit amet odio lobortis ullamcorper. Nulla bibendum magna nec sem pulvinar lobortis.
-              Mauris et imperdiet urna, vitae lobortis dui. Nunc elementum elit mi, non mattis enim
-              congue at. Proin mi lectus, ullamcorper id hendrerit eu, ultricies vitae lacus. Nunc
-              vehicula, erat eget laoreet condimentum, felis ante malesuada leo, nec efficitur diam
-              nisi eget nisi. Cras arcu lacus, tristique in bibendum vitae, elementum eget lorem.
-              Maecenas vestibulum volutpat orci eu pharetra. Praesent vel blandit ante, nec faucibus
-              libero. Sed ultrices lorem ex, eu facilisis libero convallis ac. Vivamus id dapibus
-              eros. Nullam tempor sem rhoncus porta semper. Proin bibendum vulputate nisl, fringilla
-              interdum elit pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet
-              massa.
-            </p>
-          </Col>
-        </Row>
-      </Container>
+    <h1 className="display-4 text-center">Ash's Portfolio</h1>
+
+
+    <div className="container h-100">
+      <div className="row">
+        <figure className="col-xs-6 col-md-6 col-lg-6">
+          <h2>Eat-Da-Burger</h2>
+          <img className="img-thumbnail" src="./Pictures/burger.png" alt="Screenshot of deployed website" />
+          <a href="https://github.com/ashattack/Eat-Da-Burger" target="_blank"><button type="button"
+              className="btn btn-primary">Github</button></a>
+          <a href="https://eat-da-burgel.herokuapp.com/" target="_blank"><button type="button"
+              className="btn btn-primary">Website</button></a>
+  
+        </figure>
+  
+        <figure className="col-xs-6 col-md-6 col-lg-6" id="flip">
+          <h2> BattleNodes Video Game Database</h2>
+          <img className="img-thumbnail" src="./Pictures/battleNodes.png" alt="Screenshot of deployed website" />
+          <a href="https://github.com/ashattack/whos-your-data" target="_blank"><button type="button"
+              className="btn btn-primary">Github</button></a>
+          <a href="https://protected-beach-35913.herokuapp.com/" target="_blank"><button type="button"
+              className="btn btn-primary">Website</button></a>
+        </figure>
+  
+  
+        <figure className="col-xs-6 col-md-6 col-lg-6">
+          <h2>NoteTaker</h2>
+          <img className="img-thumbnail" src="./Pictures/NoteTaker.png" alt="Screenshot of deployed website" />
+          <a href="https://github.com/ashattack/Note_Taker" target="_blank"><button type="button"
+              className="btn btn-primary">Github</button></a>
+          <a href="https://ancient-depths-17492.herokuapp.com/" target="_blank"><button type="button"
+              className="btn btn-primary">Website</button></a>
+        </figure>
+  
+        <figure className="col-xs-6 col-md-6 col-lg-6">
+          <h2>Avatar The Last Airbender Quiz</h2>
+          <img className="img-thumbnail" src="./Pictures/CodeQuiz.png" alt="Screenshot of deployed website" />
+          <a href="https://github.com/ashattack/Code-Quiz" target="_blank"><button type="button"
+              className="btn btn-primary">Github</button></a>
+          <a href="https://ashattack.github.io/Code-Quiz/" target="_blank"><button type="button"
+              className="btn btn-primary">Website</button></a>
+        </figure>
+  
+        <figure className="col-xs-6 col-md-6 col-lg-6">
+          <h2>Password Generator</h2>
+          <img className="img-thumbnail" src="./Pictures/PasswordGen.png" alt="Screenshot of deployed website" />
+          <a href="https://github.com/ashattack/Password-Generator" target="_blank"><button type="button"
+              className="btn btn-primary">Github</button></a>
+          <a href="https://ashattack.github.io/Password-Generator/" target="_blank"><button type="button"
+              className="btn btn-primary">Website</button></a>
+  
+        </figure>
+  
+  
+  
+  
+      </div>
+    </div>
     </div>
   );
 }
