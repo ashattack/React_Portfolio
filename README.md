@@ -1,4 +1,6 @@
 # React Portfolio
+
+[![CI](https://github.com/ashattack/react_portfolio/actions/workflows/blank.yml/badge.svg)](https://github.com/ashattack/react_portfolio/actions/workflows/blank.yml)
   
   ## Description
   
