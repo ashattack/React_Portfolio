@@ -2,11 +2,11 @@
 
 [![CI](https://github.com/ashattack/react_portfolio/actions/workflows/blank.yml/badge.svg)](https://github.com/ashattack/react_portfolio/actions/workflows/blank.yml)
   
-  ## Description
+ ## Description
   
 I re-created my portfolio using React!
   
-  ## Table of Contents 
+ ## Table of Contents 
   
   * [ReactApp](#ReactApp)
  
