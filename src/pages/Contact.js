@@ -32,17 +32,25 @@ function Contact() {
             <div className="form-group">
               <h6>View Resume</h6>
               <p>
-                <a href="Pictures/AshResume.pdf" target="_blank"><i className="fas fa-file"></i>
+              <a href="Pictures/AshResume.pdf" target="_blank"><i className="fas fa-file"></i>
 
-                </a>
-              </p>
-            </div>
-            <button type="submit" className="btn btn-primary" onclick="alert('Expect the unexpected!')">Submit</button>
+</a>
+</p>
+</div>
+<div className="form-group">
+              <h6>Email Me</h6>
+              <p>
+              <a href="mailto:h.ashlyn625@gmail.com" target="_blank"><i className="far fa-envelope"></i>
+
+</a>
+</p>
+</div>
 
 
-          </form>
-        </div>
-      </div>
+
+</form>
+</div>
+</div>
     </Container>
 
   );
