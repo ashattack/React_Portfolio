@@ -24,7 +24,7 @@ function Portfolio() {
   
         <figure className="col-xs-6 col-md-6 col-lg-6" id="flip">
           <h2> BattleNodes Video Game Database</h2>
-          <img className="img-thumbnail" src="./images/battlenodes.png" alt="Screenshot of deployed website" />
+          <img className="img-thumbnail" src="./images/Battlenodes.png" alt="Screenshot of deployed website" />
           <a href="https://github.com/ashattack/whos-your-data" target="_blank"><button type="button"
               className="btn btn-primary">Github</button></a>
           <a href="https://protected-beach-35913.herokuapp.com/" target="_blank"><button type="button"
