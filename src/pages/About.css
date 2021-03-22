@@ -7,6 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.jumbotron {
+    background-image: url(https://lh3.googleusercontent.com/proxy/gQtz2rJVXgUCIuCn_nXk4XnolbLyxh5ZAyiFAGQ42-c4uKIuesqZrO8G2jJh1eCY2h5DLFgwasggtBoH6byvrY_hYZq0exy3XdqclRzsCRTL3B-FQ-On3OPvZVCkuLegilqc_q3E0yUXXvl1PFqmAQRnkmL-dMQJH0pVFsg89G4pbCYTyXmjlG8);
+
+}
+
 .circlepic {
    
     margin  : auto;
