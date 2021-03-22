@@ -14,7 +14,7 @@ function About() {
 
         </div>
       </div>
-      <img className="circlepic" src="/images/Circle_Pic.png" alt="Cartoon Selfie"></img>
+      <img className="circlepic" src="/images/circlepic.png" alt="Cartoon Selfie"></img>
       <Container style={{ marginTop: 30 }}>
         
       <div className="container h-100" id="card">
