@@ -14,14 +14,14 @@ function About() {
 
                 </div>
             </div>
-            <img className="circlepic" src="/images/circlepic.png" alt="Cartoon Selfie"></img>
-            <Container style={{ marginTop: -120 }}>
-             
-                
-               
+
+         <Container > 
+
+
+
                 <div className="container h-100" id="card">
                     <div className="row no-gutters box">
-
+                        <img className="circlepic" src="/images/circlepic.png" alt="Cartoon Selfie"></img>
                         <div className="col-md-12">
                             <div className="card-body">
 
