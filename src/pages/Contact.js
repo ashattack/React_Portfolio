@@ -32,25 +32,25 @@ function Contact() {
             <div className="form-group">
               <h6>View Resume</h6>
               <p>
-              <a href="Pictures/AshResume.pdf" target="_blank"><i className="fas fa-file"></i>
+                <a href="https://docs.google.com/document/d/1FlxDPtqW6SUYuvEE_Ktd1lvnXL1vC0Fbb5dPGtAcOM0/edit?usp=sharing" target="_blank"><i className="fas fa-file"></i>
 
-</a>
-</p>
-</div>
-<div className="form-group">
+                </a>
+              </p>
+            </div>
+            <div className="form-group">
               <h6>Email Me</h6>
               <p>
-              <a href="mailto:h.ashlyn625@gmail.com" target="_blank"><i className="far fa-envelope"></i>
+                <a href="mailto:h.ashlyn625@gmail.com" target="_blank"><i className="far fa-envelope"></i>
 
-</a>
-</p>
-</div>
+                </a>
+              </p>
+            </div>
 
 
 
-</form>
-</div>
-</div>
+          </form>
+        </div>
+      </div>
     </Container>
 
   );
